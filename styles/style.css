@@ -1,0 +1,232 @@
+body
+{
+  background-color:black;
+}
+
+#firsttext
+{
+  text-align: center  !important; 
+  color: #04848C;
+  font-weight: bold;
+  line-height: 1.25em
+}
+#secondtext
+{
+  text-align: center !important; 
+  line-height: 1.67em;
+}
+#thirdtext
+{
+  text-align: center !important; 
+  font-weight: 400;
+  vertical-align: baseline !important;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.firstblock
+{
+  background-color: rgb(224, 136, 136);
+}
+.secondblock
+{
+  background-color: #04848C;
+}
+.btnblock
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#secblocktextone
+{
+  text-align: center  !important; 
+  color: rgb(244, 250, 250);
+  font-weight: bold;
+  line-height: 1.25em
+}
+#secblocktexttwo
+{
+  text-align: center !important; 
+  line-height: 1.67em;
+}
+#secblocktextthree
+{
+  text-align: center !important; 
+  font-weight: 400;
+  vertical-align: baseline !important;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.thriddblock
+{
+/*background-image: url(../images/slide1.jpg);
+display: block;
+width: 100%;
+height: auto;*/
+
+}
+
+#thirdblocktextone
+{
+  text-align: center  !important; 
+  color:white;
+  font-weight: bold;
+  line-height: 1.25em
+}
+#thirdblocktexttwo
+{
+  text-align: center !important; 
+  line-height: 1.67em;
+  color: white;
+}
+.thirdblocktextthree
+{
+  text-align: center !important; 
+  font-weight: 400;
+  vertical-align: baseline !important;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+}
+.fourthdblock
+{
+  background-color: rgb(224, 136, 136);
+  margin-left: 10%;
+}
+#fourthblocktextone
+{
+  text-align: center  !important; 
+  color:black;
+  font-weight: bold;
+  line-height: 1.25em
+}
+#fourthblocktextthree
+{
+  text-align: center !important; 
+  font-weight: 400;
+  vertical-align: baseline !important;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: black;
+}
+#backimg
+{
+  background-image: url("images/block3.jpg") !important;
+}
+#myNavbar
+{
+background-color: black !important;
+}
+.formBlock
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.modal {
+
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  
+  .modal-content {
+      position: relative;
+      background-color: #04848C;
+      margin: auto;
+      padding: 0;
+      border: 1px solid rgba(131, 127, 133, 0.945);
+      width: 50%;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+      -webkit-animation-name: animatetop;
+      -webkit-animation-duration: 0.4s;
+      animation-name: animatetop;
+      animation-duration: 0.4s
+  }
+  
+  
+  @-webkit-keyframes animatetop {
+      from {top:-300px; opacity:0} 
+      to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+      from {top:-300px; opacity:0}
+      to {top:0; opacity:1}
+  }
+  
+  
+  .close {
+      color: white;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  
+  .modal-header {
+      padding: 2px 16px;
+      background-color:  rgb(224, 136, 136);
+      color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+      padding: 2px 16px;
+      background-color:  rgb(224, 136, 136);
+      color: white;
+  }
+.modal-content {
+
+  animation-name: animate;
+
+  animation-duration: 0.5s
+
+}
+@keyframes animate {
+  from {top:-320px; opacity:0}
+  to {top:0; opacity:1}
+}
+.close {
+  font-size:  30px;
+  font-weight:  bold;
+}
+/*
+.carousel-inner
+{
+  height: 500px;
+}
+
+.carousel-inner img
+{
+  transform: translateY(-30%);
+  width: 100%;
+  height: 100%;
+
+}
+.carousel-caption
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-100%);
+  text-shadow: 1px 1px 10px #000;
+}*/
